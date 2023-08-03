@@ -1,0 +1,559 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(1, 1, 17);
+}
+
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(11, 3, 47);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-inline: 60px;
+     
+}
+nav img{
+    width: 280px;
+}
+
+#eng-button{
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+#display-btn{
+    width: 70px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: none;
+}
+
+nav span button{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.box{
+   width: 100%;
+   height: 650px; 
+   border-radius: 30px;
+   display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-position: center;
+background-size: cover;
+background-image: url(./images/netflix_bckground.jpg);
+}
+
+.container{
+width: 100%;
+height: auto;
+padding: 0px 60px;
+}
+
+.text-part{
+    width: 50%;
+    height: auto;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+  
+}
+
+.text-part h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.text-part h6{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.text-part p{
+font-size: 22px;
+margin-top: 10px;
+}
+
+.text-part span input{  
+   padding-left: 10px;
+    font-size: 25px;
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+    background: rgb(53, 52, 52);
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;  
+}
+
+.text-part span button{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+}
+
+.tv-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.tv-section left-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tv-section right-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-part img{
+    width: 500px;  
+}
+
+.left-part h1{
+    font-size: 50px;
+    color: white;
+}
+.left-part h6{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.faq-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 60px;
+    
+
+}
+
+#faq-header{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.faq{
+    margin-top: 40px;
+    padding: 10px;
+    width: 70%;
+    margin: 5px;
+}
+
+.faq li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(87, 83, 83);
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    
+}
+
+
+.span-container span input{
+    padding-left: 10px;
+     font-size: 22px;
+     width: 320px;
+     height: 50px;
+     margin-top: 20px;
+     background: rgb(53, 52, 52);
+     border: 1px solid gray;
+     border-radius: 10px;
+     font-weight: 700;
+     font-size: 18px;  
+ }
+
+ .span-container span button{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+}
+.span-container{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.span-container p{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.link-section{
+    width: 90%;
+    height: 420px;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.link-section h6 a{
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 170px;
+    font-weight: 180;
+    color: white;
+}
+
+.anchor-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 70px;
+    
+}
+
+.anchor-links ul li a{
+    color: white;
+
+}
+
+.anchor-links ul li{
+    list-style: none;
+padding: 8px;
+}
+
+#footer-btn{
+    width: 130px;
+    height: 35px;
+    background-color: rgb(48, 45, 45);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 165px;
+    font-size: 15px;
+    
+
+}
+
+.link-section h5{
+    color: white;
+    margin-left: 167px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 180;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+   
+    .main-container{
+        width: 100%;
+        height: auto;
+
+    }
+
+    nav{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    #eng-button{
+        display: none;
+    }
+
+    #display-btn{
+        width: 60px;
+        display: inline;
+    }
+
+    nav img{
+        width: 150px;
+
+    }
+
+    nav span button{
+        width: 80px;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0px 40px;
+    }
+
+    .box{
+        width: 100%;
+        height: 600px;
+    }
+
+    .text-part{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    .text-part h1{
+        font-size: 38px;
+    }
+
+    .text-part h6{
+        font-size: 18px;
+    }
+
+    .text-part span input{
+        width: 250px;
+    }
+.text-part span button{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+}
+
+.tv-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tv-section left-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.left-part h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-part h6{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 20px;
+    padding-inline: 20px;
+}
+
+.tv-section right-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-part img{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.faq-section{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#faq-header{
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.faq li{
+    font-size: 10px;
+}
+
+.faq{
+    width: 320px;
+    height: 800px;
+}
+
+.span-container span button{
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.span-container{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.span-container p{
+    font-size: 18px;
+    margin-left: 20px;
+   
+}
+
+.span-container span input{
+    padding-left: 10px;
+     font-size: 20px;
+     width: 250px;
+     height: 40px;
+     margin-top: 20px;
+     background: rgb(53, 52, 52);
+     border: 1px solid gray;
+     border-radius: 5px;
+     font-weight: 700;
+     font-size: 18px; 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .link-section{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .link-section h6 a{
+
+        margin-right: 200px;
+        font-size: 15px;
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+
+    .anchor-links{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer-btn{
+        margin-right: 300px;
+    }
+
+    .link-section h5{
+        margin-right: 220px;
+        width: 200px;
+
+    }
+
+   
+
+  
+
+
+
+
+
+
+
+
+}
+
+
+    
+
+
+
+
+
+
+
